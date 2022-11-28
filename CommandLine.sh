@@ -11,7 +11,7 @@ echo " "
 echo "Question 2: In the dataset provided, did females spend more than males, or vice versa?"
 awk -F ',' '{if($4 == "F") {sum1 += $9; numF++} else if($4 == "M") {sum2 += $9; numM++}} 
 END {print "On average, females spend: " sum1/numF } END {print "On average, males spend: " sum2/numM}' bank_transactions.csv
-echo "We can conclude that in the dataset provided females spend  more than males."
+echo "We can conclude that in the dataset provided females spend more than males."
 
 echo " "
 
@@ -19,5 +19,6 @@ echo " "
 echo "Question 3: Report the customer with the highest average transaction amount in the dataset."
 awk -F ',' '{totTrans[$2]+=$9; count[$2]++} 
 END {for (costumer in totTrans) averages[costumer] = totTrans[costumer]/count[costumer]} 
-END {for (costumer in averages) if (averages[costumer] > max) {max = averages[costumer]; result = costumer}} END {print "The highest average transactions amount in the dataset is " max " and was made by the customer with the ID " result "."}' bank_transactions.csv
+END {for (costumer in averages) if (averages[costumer] > max) {max = averages[costumer]; result = costumer}} 
+END {print "The highest average transactions amount in the dataset is " max " and was made by the customer with the ID " result "."}' bank_transactions.csv
  
