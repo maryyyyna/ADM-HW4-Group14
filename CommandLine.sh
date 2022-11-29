@@ -10,8 +10,8 @@ echo " "
 #2 In the dataset provided, did females spend more than males, or vice versa?
 echo "Question 2: In the dataset provided, did females spend more than males, or vice versa?"
 awk -F ',' '{if($4 == "F") {sum1 += $9; numF++} else if($4 == "M") {sum2 += $9; numM++}} 
-END {print "On average, females spend: " sum1/numF } END {print "On average, males spend: " sum2/numM}' bank_transactions.csv
-echo "We can conclude that in the dataset provided females spend more than males."
+END {print "Total average spent by females: " sum1/numF } END {print "Total average spent by males:  " sum2/numM}' bank_transactions.csv
+echo "We can conclude that in the dataset provided females spent on average more than males."
 
 echo " "
 
