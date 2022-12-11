@@ -14,4 +14,4 @@ The repository ADM-HW4-Group14 contains the code from Homework 4 for the course 
 
 * The file `main.ipynb` contains a Jupyter Notebook with questions 1-2 and the algorithmic question of Homework 4 - Getting to know your customers.
 * The file `CommandLine.sh` contains the answer to Command Line Question in a .sh bash executable file.
-* The folder `additiolfile`  contains the results obtained by running the `CommandLine.sh`.
+* The folder `additiolFiles`  contains the results obtained by running the `CommandLine.sh`.
