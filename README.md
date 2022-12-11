@@ -2,9 +2,9 @@
 
 `AUTHORS`:
 
-`Name`: Marina  `Matricola`: 2065450 `Email`: @studenti.uniroma1.it <br>
+`Name`: Marina Iuliana Aur   `Matricola`: 1809715 `Email`: aur.1809715@studenti.uniroma1.it <br>
 `Name`: Francesco Ferrusi `Matricola`: 2081332 `Email`: ferrusi.2081332@studenti.uniroma1.it <br>
-`Name`: Marco `Matricola`: 1919033 `Email`: @studenti.uniroma1.it <br>
+`Name`: Marco D'Ercole  `Matricola`: 1874366 `Email`: d'ercole.1874366@studenti.uniroma1.it <br>
 
 `INTRODUCTION`:
 
